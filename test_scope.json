@@ -1,0 +1,54 @@
+{
+  "program_name": "GoodDollar Protocol",
+  "program_url": "https://github.com/GoodDollar/GoodProtocol",
+  "scope": {
+    "ethereum_contracts": {
+      "NameService": "0xec6dcE387B1616a0c44fF2E4fA9E90E53Cf14eb0",
+      "GReputation": "0x603b8c0f110e037b51a381cbcacabb8d6c6e4543",
+      "CompoundVotingMachine": "0x57ee6ceff51cb30ecb1245934a882c500fbec1e9",
+      "Identity": "0x76e76e10Ac308A1D54a00f9df27EdCE4801F288b",
+      "GoodDollar": "0x67C5870b4A41D4Ebef24d2456547A03F1f3e094B",
+      "Controller": "0x95C0d9dCEA1E243ED696F34CAc5e6559C3c128a3",
+      "Avatar": "0x1ecFD1afb601C406fF0e13c3485f2d75699b6817",
+      "MpbBridge": "0xa3247276DbCC76Dd7705273f766eB3E8a5ecF4a5"
+    },
+    "celo_contracts": {
+      "GoodDollar": "0x62B8B11039FcfE5aB0C56E502b1C372A3d2a9c7A",
+      "Avatar": "0x495d133B938596C9984d462F007B676bDc57eCEC",
+      "Controller": "0x0be7C592374EE0bD0CcBFC76Be758a138BcaEc6E",
+      "Identity": "0xC361A6E67822a0EDc17D899227dd9FC50BD62F42",
+      "NameService": "0x0F5dB7a64A6a64052693676CA898EC7F7A94FF4e",
+      "GReputation": "0xa9000Aa66903b5E26F88Fa8462739CdCF7956EA6",
+      "FeeFormula": "0x1151867dA39003695eed28Fafa871079C91884C9",
+      "GoodDollarMintBurnWrapper": "0x5566b6E4962BA83e05a426Ad89031ec18e9CadD3",
+      "Faucet": "0x4F93Fa058b03953C851eFaA2e4FC5C34afDFAb84",
+      "Invites": "0x36829D1Cda92FFF5782d5d48991620664FC857d3",
+      "UBIScheme": "0x43d72Ff17701B2DA814620735C39C620Ce0ea4A1",
+      "OneTimePayments": "0xB27D247f5C2a61D2Cb6b6E67FEE51d839447e97d",
+      "SwapHelper": "0xE45CaB86609a16dFaDec112FDd61E4EA80EdaA8D",
+      "MpbBridge": "0xa3247276DbCC76Dd7705273f766eB3E8a5ecF4a5",
+      "StaticOracle": "0x00851A91a3c4E9a4c1B48df827Bacc1f884bdE28",
+      "BuyGDFactoryV2": "0x1F60C4C7037C6766924A43666B781ED1479587a2"
+    },
+    "fuse_contracts": {
+      "NameService": "0xec6dcE387B1616a0c44fF2E4fA9E90E53Cf14eb0",
+      "GReputation": "0x603B8C0F110E037b51A381CBCacAbb8d6c6E4543",
+      "CompoundVotingMachine": "0x57Ee6Ceff51CB30Ecb1245934a882c500Fbec1e9",
+      "ClaimersDistribution": "0x1aE4929090258A9D5000D98Cfb8A27174d345834",
+      "GovernanceStakingV2": "0xB7C3e738224625289C573c54d402E9Be46205546",
+      "UBIScheme": "0xd253A5203817225e9768C05E5996d642fb96bA86",
+      "OneTimePayments": "0xd9Aa86e0Ddb932bD78ab8c71C1B98F83cF610Bd4",
+      "Invites": "0xCa2F09c3ccFD7aD5cB9276918Bd1868f2b922ea0",
+      "Identity": "0x2F9C28de9e6d44b71B91b8BA337A5D82e308E7BE",
+      "GoodDollar": "0x495d133B938596C9984d462F007B676bDc57eCEC",
+      "Controller": "0xBcE053b99e22158f8B62f4DBFbEdE1f936b2D4e4",
+      "Avatar": "0xf96dADc6D71113F6500e97590760C924dA1eF70e",
+      "FuseFaucet": "0x01ab5966C1d742Ae0CFF7f14cC0F4D85156e83d9",
+      "IdentityOld": "0xFa8d865A962ca8456dF331D78806152d3aC5B84F",
+      "GoodDollarMintBurnWrapper": "0x031b2B7C7854dd8EE9C4A644D7e54aD17F56e3cB",
+      "MpbBridge": "0xa3247276DbCC76Dd7705273f766eB3E8a5ecF4a5"
+    },
+    "repository": "https://github.com/GoodDollar/GoodProtocol",
+    "commit_hash": "baa8e3f77647313300a8da6701da4ef36aa21110"
+  }
+}

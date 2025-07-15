@@ -1,0 +1,86 @@
+{
+  "scanner": {
+    "max_threads": 10,
+    "delay_between_requests": 1.0,
+    "timeout": 30,
+    "user_agent": "BugBountyScanner/1.0 (Educational Research)",
+    "respect_robots": true,
+    "max_depth": 3,
+    "rate_limit_per_second": 5
+  },
+  "web_scanner": {
+    "subdomain_wordlist": [
+      "www", "mail", "ftp", "admin", "test", "dev", "staging", "api",
+      "app", "dashboard", "portal", "secure", "vpn", "blog", "shop",
+      "store", "support", "help", "docs", "cdn", "static", "assets"
+    ],
+    "directory_wordlist": [
+      "/admin", "/login", "/dashboard", "/api", "/v1", "/v2",
+      "/test", "/dev", "/staging", "/backup", "/config",
+      "/wp-admin", "/wp-content", "/wp-includes",
+      "/.git", "/.env", "/.htaccess", "/robots.txt",
+      "/sitemap.xml", "/crossdomain.xml", "/clientaccesspolicy.xml"
+    ],
+    "parameter_wordlist": [
+      "id", "user", "admin", "debug", "test", "key", "token",
+      "callback", "jsonp", "redirect", "url", "file", "path",
+      "page", "action", "method", "format", "type", "sort"
+    ]
+  },
+  "smart_contract": {
+    "solidity_patterns": {
+      "reentrancy": [
+        "\\.call\\.value\\(",
+        "\\.transfer\\(",
+        "\\.send\\("
+      ],
+      "integer_overflow": [
+        "[+-]\\s*\\d+",
+        "SafeMath",
+        "unchecked"
+      ],
+      "access_control": [
+        "onlyOwner",
+        "require\\(.*owner",
+        "modifier.*only"
+      ]
+    }
+  },
+  "notifications": {
+    "email": {
+      "enabled": false,
+      "smtp_server": "smtp.gmail.com",
+      "smtp_port": 587,
+      "use_tls": true,
+      "username": "",
+      "password": "",
+      "from": ""
+    },
+    "slack": {
+      "enabled": false,
+      "webhook_url": ""
+    },
+    "discord": {
+      "enabled": false,
+      "webhook_url": ""
+    }
+  },
+  "automation": {
+    "enabled": true,
+    "max_concurrent_scans": 5,
+    "default_scan_interval": 24,
+    "cleanup_after_days": 30
+  },
+  "reporting": {
+    "formats": ["markdown", "json", "pdf"],
+    "include_charts": true,
+    "include_evidence": true,
+    "encrypt_sensitive_data": true
+  },
+  "database": {
+    "type": "sqlite",
+    "path": "bug_bounty_scanner.db",
+    "backup_enabled": true,
+    "backup_interval_hours": 24
+  }
+}
